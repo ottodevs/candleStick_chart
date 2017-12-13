@@ -1,11 +1,10 @@
 import React from 'react'
-import DuckImage from '../assets/Duck.jpg'
-import './HomeView.scss'
+import './CandleStickChartView.scss'
 import ChartComponent from './ChartComponent.js'
 import { ChartCanvas, Chart, series } from "react-stockcharts";
 
-export const HomeView = () => (
+export const CandleStickChartView = () => (
     <ChartComponent />
 )
 
-export default HomeView
+export default CandleStickChartView
